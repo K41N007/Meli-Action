@@ -11,6 +11,8 @@ on:
         description: 'Optional title for the output file (no spaces/special chars)'
         required: false
         type: string
+permissions:
+  contents: write
 
 jobs:
   download:
